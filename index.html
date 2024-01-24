@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        //1
+        let arr1 = [4, 3, 2, 1]
+
+        function func1(arr) {
+            return arr.map(elelment => elelment * 3)
+        }
+
+        console.log(func1(arr1));
+
+        //2
+        let arr2 = [1, 2, 34, 5, 6]
+
+        function func2(arr) {
+            return arr.findIndex(element => element > 10)
+        }
+
+        console.log(func2(arr2));
+
+        //3
+        let arr3 = [1, 3, 6, 8, 0, 5]
+
+        function func3(arr) {
+            return arr.every(element => element % 3 == 0)
+        }
+
+        console.log(func3(arr3));
+
+        //4
+        let arr4 = [1, 2, 3, 4, 7, 56, 77, 90]
+
+        function func4(arr) {
+            return arr.some(element => element > 10)
+        }
+
+        console.log(func4(arr4));
+
+        //5
+        let arr5 = [1, "ok", 5, "on"]
+
+        function func5(arr) {
+            return arr.filter(elelment => typeof elelment === "string")
+        }
+
+        console.log(func5(arr5));
+
+        //6
+        let arr6 = [1, "6", 3, 34, 56,]
+
+        function func6(arr) {
+            return arr.find(elelment => {
+                return typeof elelment === "number" && elelment > 5
+            })
+        }
+
+        console.log(func6(arr6));
+        //7
+        let arr7 = [4, 3, 2, 1]
+
+        function func7(arr) {
+            return arr.map(elelment => elelment * 2)
+        }
+
+        console.log(func7(arr7));
+
+        //8
+        let arr8 = [100,903, 76, 800,1220,795]
+
+        function func8(arr) {
+            return arr.every(element => element >10)
+        }
+
+        console.log(func8(arr8));
+
+        //9
+        let arr9 = [1, "ok",88, "on",98,79]
+
+        function func9(arr) {
+            return arr.filter(elelment => elelment%2==0)
+        }
+
+        console.log(func9(arr9));
+
+        //10
+        let names = ["banana", "mango", "melon"]
+
+        function addHello(arr) {
+            return arr.map(str => ` ${str} -extended`)
+        }
+        
+        console.log(addHello(names))
+
+        //11
+
+        let arr11 =["cat", "dog", "elephant", "fox"]
+
+        function func11(arr){
+            return arr.findIndex(element => element.length >= 5)
+        }
+
+        console.log(func11(arr11));
+
+        //12
+        let arr12 = ["avigdor","shalom","nachman"]
+
+        function func12(arr) {
+            return arr.every(element => element.length >=3)
+        }
+
+        console.log(func12(arr12));
+
+        //13
+        let arr13 = ["pvigdor","shalom","nachman"]
+
+        function func13(arr) {
+            return arr.some(element => element.charAt(0)==="a")
+        }
+
+        console.log(func13(arr13));
+
+        //14
+        let arr14 = ["apple", "banana", "orange", "grape" ] 
+
+        function func14(arr) {
+            return arr.filter(elelment => elelment.charAt(elelment.length-1)==="e")
+        }
+
+        console.log(func14(arr14));
+
+        //15
+        let arr15 = ["apple", "banana", "orange", "grape" ] 
+
+        function func15(arr){
+            return arr.find(elelment => elelment.charAt() ==="b")
+        }
+
+        console.log(func15(arr15));
+    </script>
+ 
+</body>
+</html>
+<body>
+    
